@@ -2,4 +2,5 @@
 
 - hosts: all
   tasks:
-    - setup
+    - name: Setup
+      setup:
