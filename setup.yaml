@@ -4,3 +4,6 @@
   tasks:
     - name: Setup
       setup:
+    - name: Debug hostvars
+      debug:
+        var: hostvars['ansible_nodename']
